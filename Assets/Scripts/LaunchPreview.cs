@@ -22,6 +22,6 @@ public class LaunchPreview : MonoBehaviour
         Vector3 endPointOffset = wordPoint - dragStartPoint;
         Vector3 endPoint = this.transform.position + endPointOffset;
 
-        lineRenderer.SetPosition(1, endPoint);
+        lineRenderer.SetPosition(1, endPoint); 
     }
 }
