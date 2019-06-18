@@ -1,0 +1,9 @@
+Library
+/
+Logs/
+obj/
+Temp/
+.vs/
+
+*.meta
+*.sln
