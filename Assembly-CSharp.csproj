@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\BallsLauncher.cs" />
+    <Compile Include="Assets\Scripts\BallsReturn.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\Scripts\BlockSpowner.cs" />
     <Compile Include="Assets\Scripts\LaunchPreview.cs" />

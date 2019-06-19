@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockSpowner : MonoBehaviour
@@ -22,7 +20,7 @@ public class BlockSpowner : MonoBehaviour
         }
     }
 
-    private void SpownRowOfBlocks()
+    public void SpownRowOfBlocks()
     {
         foreach (var block in blocksSpowned)
         {
@@ -31,7 +29,6 @@ public class BlockSpowner : MonoBehaviour
                 block.transform.position += Vector3.down * distanceBetweenBlocks;
             }
         }
-
 
         for (int i = 0; i < playWidth; i++)
         {
